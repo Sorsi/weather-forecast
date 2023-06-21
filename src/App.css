@@ -1,0 +1,143 @@
+html,
+body {
+  background-color: #132434;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cities-container,
+.search-container,
+.weather-container {
+  font-size: 42px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding-left: 0;
+  text-align: center;
+}
+
+li {
+  padding-bottom: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #93B7CC;
+}
+
+.plus-sign {
+  color: #01FF40;
+  font-size: 72px;
+}
+
+.angle-icon {
+  font-size: 56px;
+  color: #3893B1;
+  padding-left: 6px;
+}
+
+.capitals-list {
+  color: #92B7CC;
+}
+
+.save-btn {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  background-color: transparent;
+  border: none;
+  color: #3893B1;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #3893B1;
+  width: 60%;
+  font-size: 36px;
+  color: #92B7CC;
+  background: transparent;
+}
+
+::placeholder {
+  color: #b9dbee;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #F3F7F7;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #F3F7F7;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.highlight {
+  color: #267DBD;
+}
+
+.temp-data-wrapper {
+  display: flex;
+}
+
+.temp-icon {
+  padding-left: 5%;
+  color: #003876;
+}
+
+.temp-data,
+.wi-celsius {
+  margin-left: 16px;
+  font-weight: 400;
+  color: #2E718A;
+}
+
+.celsius-sign {
+  color: #2E718A;
+  font-weight: 400;
+}
+
+.city {
+  color: #93B7CC;
+}
+
+.time {
+  color: #2471AB;
+}
+
+.weather-icon {
+  font-size: 96px;
+  margin-bottom: 3rem;
+  color: #3893B1;
+}
+
+.weather-description {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: auto;
+  color: #93B7CC;
+}
+
+.loading {
+  font-size: 36px;
+  color: #93B7CC;
+}
